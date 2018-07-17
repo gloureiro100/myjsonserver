@@ -1,39 +1,40 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    },
-    {
-      "id": 4,
-      "title": "post 4"
-    },
-    {
-      "id": 5,
-      "title": "post 5"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "titulos":
+[
+  {
+    "id": 0,
+    "papel": "LFT",
+    "nome": "LFT 2042",
+    "quantidade": 77,
+    "valor": 3826
+  },
+  {
+    "id": 1,
+    "papel": "NTN-B Principal",
+    "nome": "NTN-B Principal 2026",
+    "quantidade": 72,
+    "valor": 2302
+  },
+  {
+    "id": 2,
+    "papel": "LTN",
+    "nome": "LTN 2042",
+    "quantidade": 10,
+    "valor": 2127
+  },
+  {
+    "id": 3,
+    "papel": "LTN",
+    "nome": "LTN 2042",
+    "quantidade": 74,
+    "valor": 1153
+  },
+  {
+    "id": 4,
+    "papel": "NTN-F",
+    "nome": "NTN-F 2021",
+    "quantidade": 41,
+    "valor": 3477
   }
+]
 }

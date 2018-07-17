@@ -1,0 +1,15 @@
+[
+  '{{repeat(5)}}',
+  {
+    id:'{{index()}}',
+    papel: function(tags){
+      var CODTITULO = ['LFT', 'LTN','NTN-C', 'NTN-B','NTN-F', 'NTN-B Principal'  ];
+      return CODTITULO[tags.integer(0,CODTITULO.length - 1)];     
+    },
+    nome: function(tags){
+    return this.papel + ' ' + tags.integer(2018,2045);
+  },
+    quantidade: '{{integer(1,100)}}',
+    valor: '{{integer(1000,4000)}}'
+  }
+]
